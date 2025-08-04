@@ -1,0 +1,623 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Gaurav\\GitHub\\MicroX\\MicroX.Tests\\MicroX.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Gaurav\\GitHub\\MicroX\\MicroX.Tests\\MicroX.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gaurav\\GitHub\\MicroX\\MicroX.Tests\\MicroX.Tests.csproj",
+        "projectName": "MicroX.Tests",
+        "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\MicroX.Tests\\MicroX.Tests.csproj",
+        "packagesPath": "C:\\Users\\jigis\\.nuget\\packages\\",
+        "outputPath": "C:\\Gaurav\\GitHub\\MicroX\\MicroX.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jigis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.API\\MicroX.API.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.API\\MicroX.API.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.58, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.API\\MicroX.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.API\\MicroX.API.csproj",
+        "projectName": "MicroX.API",
+        "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.API\\MicroX.API.csproj",
+        "packagesPath": "C:\\Users\\jigis\\.nuget\\packages\\",
+        "outputPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jigis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Infrastructure\\MicroX.Infrastructure.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Infrastructure\\MicroX.Infrastructure.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\MicroX.Shared.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\MicroX.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj",
+        "projectName": "MicroX.Application",
+        "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj",
+        "packagesPath": "C:\\Users\\jigis\\.nuget\\packages\\",
+        "outputPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jigis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj",
+        "projectName": "MicroX.Contracts",
+        "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\MicroX.Contracts.csproj",
+        "packagesPath": "C:\\Users\\jigis\\.nuget\\packages\\",
+        "outputPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jigis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj",
+        "projectName": "MicroX.Domain",
+        "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj",
+        "packagesPath": "C:\\Users\\jigis\\.nuget\\packages\\",
+        "outputPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jigis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Infrastructure\\MicroX.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Infrastructure\\MicroX.Infrastructure.csproj",
+        "projectName": "MicroX.Infrastructure",
+        "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Infrastructure\\MicroX.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jigis\\.nuget\\packages\\",
+        "outputPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jigis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application\\MicroX.Application.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain\\MicroX.Domain.csproj"
+              },
+              "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\MicroX.Shared.csproj": {
+                "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\MicroX.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.58, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\MicroX.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\MicroX.Shared.csproj",
+        "projectName": "MicroX.Shared",
+        "projectPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\MicroX.Shared.csproj",
+        "packagesPath": "C:\\Users\\jigis\\.nuget\\packages\\",
+        "outputPath": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jigis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  microx.api:
+    container_name: microx-api
+    image: microx.api
+    build:
+      context: .
+      dockerfile: src/MicroX.API/Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5000
+    volumes:
+      - ./src/MicroX.API/Logs:/app/Logs # Mount logs folder (optional)
+    depends_on:
+      - redis
+    networks:
+      - microx-network
+
+  redis:
+    image: redis
+    container_name: microx-redis
+    ports:
+      - "6380:6379"
+    networks:
+      - microx-network
+
+networks:
+  microx-network:
+    driver: bridge

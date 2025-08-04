@@ -1,0 +1,11 @@
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\bin\Debug\net9.0\MicroX.Domain.deps.json
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\bin\Debug\net9.0\MicroX.Domain.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\bin\Debug\net9.0\MicroX.Domain.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\MicroX.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\MicroX.Domain.AssemblyInfoInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\MicroX.Domain.AssemblyInfo.cs
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\MicroX.Domain.csproj.CoreCompileInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\MicroX.Domain.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\refint\MicroX.Domain.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\MicroX.Domain.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Domain\obj\Debug\net9.0\ref\MicroX.Domain.dll

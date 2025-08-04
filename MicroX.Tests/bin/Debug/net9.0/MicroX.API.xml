@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MicroX.API</name>
+    </assembly>
+    <members>
+        <member name="M:InfoController.Get">
+            <summary>
+            Returns basic information about the service.
+            </summary>
+            <returns>Service metadata like name, environment, and version.</returns>
+        </member>
+        <member name="M:PingController.Get">
+            <summary>
+            Ping the service to check if it's alive.
+            </summary>
+            <returns>Returns "Pong" if the service is reachable.</returns>
+        </member>
+        <member name="T:MicroX.API.Controllers.ProductController">
+            <summary>
+            API Controller to manage Product CRUD operations.
+            </summary>
+        </member>
+        <member name="M:MicroX.API.Controllers.ProductController.#ctor(MicroX.Application.Interfaces.IProductService)">
+            <summary>
+            Constructor for ProductController.
+            </summary>
+            <param name="service">Service to handle product operations.</param>
+        </member>
+        <member name="M:MicroX.API.Controllers.ProductController.GetAll">
+            <summary>
+            Retrieves all products.
+            </summary>
+            <returns>List of products.</returns>
+        </member>
+        <member name="M:MicroX.API.Controllers.ProductController.GetById(System.Guid)">
+            <summary>
+            Retrieves a product by its unique ID.
+            </summary>
+            <param name="id">Product ID (GUID).</param>
+            <returns>Product details.</returns>
+        </member>
+        <member name="M:MicroX.API.Controllers.ProductController.Create(MicroX.Domain.Entities.Product)">
+            <summary>
+            Creates a new product.
+            </summary>
+            <param name="product">Product object to create.</param>
+            <returns>Created product with its ID.</returns>
+        </member>
+        <member name="M:MicroX.API.Controllers.ProductController.Update(System.Guid,MicroX.Domain.Entities.Product)">
+            <summary>
+            Updates an existing product.
+            </summary>
+            <param name="id">Product ID.</param>
+            <param name="product">Updated product object.</param>
+            <returns>Status result.</returns>
+        </member>
+        <member name="M:MicroX.API.Controllers.ProductController.Delete(System.Guid)">
+            <summary>
+            Deletes a product by ID.
+            </summary>
+            <param name="id">Product ID.</param>
+            <returns>Status result.</returns>
+        </member>
+        <member name="T:MicroX.API.Controllers.ServiceInfoController">
+            <summary>
+            Provides endpoints to retrieve and add service information entries.
+            </summary>
+        </member>
+        <member name="M:MicroX.API.Controllers.ServiceInfoController.GetAll">
+            <summary>
+            Retrieves all registered service info records.
+            </summary>
+            <returns>A list of service information records.</returns>
+            <response code="200">Returns the list of service info DTOs.</response>
+        </member>
+        <member name="M:MicroX.API.Controllers.ServiceInfoController.Add(MicroX.Contracts.DTOs.ServiceInfoDto)">
+            <summary>
+            Adds a new service info record.
+            </summary>
+            <param name="dto">The service info to add.</param>
+            <returns>A 201 response if created successfully.</returns>
+            <response code="201">Service info was successfully added.</response>
+            <response code="400">If the input is invalid.</response>
+        </member>
+    </members>
+</doc>

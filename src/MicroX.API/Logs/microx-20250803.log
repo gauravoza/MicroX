@@ -1,0 +1,148 @@
+2025-08-03 15:40:32.580 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 15:40:32.774 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 15:40:32.807 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 15:40:32.808 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 15:40:32.809 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 15:40:32.809 +05:30 [INF] Hosting environment: Development
+2025-08-03 15:40:32.810 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 15:43:50.657 +05:30 [INF] Application is shutting down...
+2025-08-03 17:34:56.911 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:34:57.126 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 17:34:57.161 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 17:34:57.163 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 17:34:57.163 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 17:34:57.164 +05:30 [INF] Hosting environment: Development
+2025-08-03 17:34:57.165 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 17:35:18.453 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/ - null null
+2025-08-03 17:35:18.523 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/ - 307 0 null 72.1613ms
+2025-08-03 17:35:18.624 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/ - null null
+2025-08-03 17:35:18.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/ - 404 0 null 5.8471ms
+2025-08-03 17:35:18.636 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7240/, Response status code: 404
+2025-08-03 17:35:22.322 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - null null
+2025-08-03 17:35:22.464 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.6406ms
+2025-08-03 17:35:26.524 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/Info - null null
+2025-08-03 17:35:26.529 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:35:26.545 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:35:26.554 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:35:26.575 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 25.3036ms
+2025-08-03 17:35:26.576 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:35:26.577 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/Info - 200 null application/json; charset=utf-8 52.5736ms
+2025-08-03 17:35:43.222 +05:30 [INF] Application is shutting down...
+2025-08-03 17:47:52.903 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:47:53.098 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 17:47:53.132 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 17:47:53.133 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 17:47:53.134 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 17:47:53.135 +05:30 [INF] Hosting environment: Development
+2025-08-03 17:47:53.136 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 17:47:54.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/Info - null null
+2025-08-03 17:47:54.796 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:47:54.805 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:47:54.817 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:47:54.839 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 29.7965ms
+2025-08-03 17:47:54.851 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:47:54.856 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/Info - 200 null application/json; charset=utf-8 101.8471ms
+2025-08-03 17:48:09.788 +05:30 [INF] Application is shutting down...
+2025-08-03 18:47:56.477 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:47:56.670 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 18:47:56.693 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 18:47:56.694 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 18:47:56.695 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 18:47:56.696 +05:30 [INF] Hosting environment: Development
+2025-08-03 18:47:56.696 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 18:47:59.175 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/ - null null
+2025-08-03 18:47:59.235 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/ - 307 0 null 61.876ms
+2025-08-03 18:47:59.306 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/ - null null
+2025-08-03 18:47:59.312 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/ - 404 0 null 5.7782ms
+2025-08-03 18:47:59.316 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7240/, Response status code: 404
+2025-08-03 18:48:05.735 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - null null
+2025-08-03 18:48:05.874 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.436ms
+2025-08-03 18:48:14.213 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/RedisDemo/get - null null
+2025-08-03 18:48:14.217 +05:30 [INF] Executing endpoint 'RedisDemoController.Get (MicroX.API)'
+2025-08-03 18:48:14.236 +05:30 [INF] Route matched with {action = "Get", controller = "RedisDemo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller RedisDemoController (MicroX.API).
+2025-08-03 18:48:14.446 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:48:14.449 +05:30 [INF] Executed action RedisDemoController.Get (MicroX.API) in 209.6469ms
+2025-08-03 18:48:14.450 +05:30 [INF] Executed endpoint 'RedisDemoController.Get (MicroX.API)'
+2025-08-03 18:48:14.452 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/RedisDemo/get - 200 null text/plain; charset=utf-8 238.6022ms
+2025-08-03 18:48:20.499 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/RedisDemo/set - null null
+2025-08-03 18:48:20.503 +05:30 [INF] Executing endpoint 'RedisDemoController.Set (MicroX.API)'
+2025-08-03 18:48:20.508 +05:30 [INF] Route matched with {action = "Set", controller = "RedisDemo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Set() on controller RedisDemoController (MicroX.API).
+2025-08-03 18:48:20.613 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:48:20.614 +05:30 [INF] Executed action RedisDemoController.Set (MicroX.API) in 104.0694ms
+2025-08-03 18:48:20.615 +05:30 [INF] Executed endpoint 'RedisDemoController.Set (MicroX.API)'
+2025-08-03 18:48:20.616 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/RedisDemo/set - 200 null text/plain; charset=utf-8 116.8715ms
+2025-08-03 18:48:24.787 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/RedisDemo/get - null null
+2025-08-03 18:48:24.790 +05:30 [INF] Executing endpoint 'RedisDemoController.Get (MicroX.API)'
+2025-08-03 18:48:24.791 +05:30 [INF] Route matched with {action = "Get", controller = "RedisDemo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller RedisDemoController (MicroX.API).
+2025-08-03 18:48:24.797 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:48:24.798 +05:30 [INF] Executed action RedisDemoController.Get (MicroX.API) in 5.5361ms
+2025-08-03 18:48:24.799 +05:30 [INF] Executed endpoint 'RedisDemoController.Get (MicroX.API)'
+2025-08-03 18:48:24.800 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/RedisDemo/get - 200 null text/plain; charset=utf-8 12.8266ms
+2025-08-03 18:48:33.735 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/Product - null null
+2025-08-03 18:48:33.738 +05:30 [INF] Executing endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:48:33.744 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MicroX.Domain.Entities.Product]]] GetAll() on controller MicroX.API.Controllers.ProductController (MicroX.API).
+2025-08-03 18:48:33.748 +05:30 [INF] Executed action MicroX.API.Controllers.ProductController.GetAll (MicroX.API) in 2.357ms
+2025-08-03 18:48:33.749 +05:30 [INF] Executed endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:48:33.752 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MicroX.Application.Interfaces.IProductService' while attempting to activate 'MicroX.API.Controllers.ProductController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-03 18:48:33.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/Product - 500 null text/plain; charset=utf-8 35.5341ms
+2025-08-03 18:55:05.837 +05:30 [INF] Application is shutting down...
+2025-08-03 18:55:10.371 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:55:10.580 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 18:55:10.606 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 18:55:10.608 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 18:55:10.608 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 18:55:10.609 +05:30 [INF] Hosting environment: Development
+2025-08-03 18:55:10.609 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 18:55:15.727 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - null null
+2025-08-03 18:55:15.914 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 188.945ms
+2025-08-03 18:55:21.596 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/Product - null null
+2025-08-03 18:55:21.606 +05:30 [INF] Executing endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:55:21.631 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MicroX.Domain.Entities.Product]]] GetAll() on controller MicroX.API.Controllers.ProductController (MicroX.API).
+2025-08-03 18:55:21.656 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MicroX.Domain.Entities.Product, MicroX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-03 18:55:21.717 +05:30 [INF] Executed action MicroX.API.Controllers.ProductController.GetAll (MicroX.API) in 78.8257ms
+2025-08-03 18:55:21.719 +05:30 [INF] Executed endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:55:21.720 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/Product - 200 null application/json; charset=utf-8 124.3728ms
+2025-08-03 18:55:28.767 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7240/api/Product - application/json 131
+2025-08-03 18:55:28.771 +05:30 [INF] Executing endpoint 'MicroX.API.Controllers.ProductController.Create (MicroX.API)'
+2025-08-03 18:55:28.781 +05:30 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MicroX.Domain.Entities.Product]] Create(MicroX.Domain.Entities.Product) on controller MicroX.API.Controllers.ProductController (MicroX.API).
+2025-08-03 18:55:28.840 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'MicroX.Domain.Entities.Product'.
+2025-08-03 18:55:28.860 +05:30 [INF] Executed action MicroX.API.Controllers.ProductController.Create (MicroX.API) in 76.7486ms
+2025-08-03 18:55:28.861 +05:30 [INF] Executed endpoint 'MicroX.API.Controllers.ProductController.Create (MicroX.API)'
+2025-08-03 18:55:28.862 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7240/api/Product - 201 null application/json; charset=utf-8 95.4993ms
+2025-08-03 18:55:37.334 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/Product - null null
+2025-08-03 18:55:37.337 +05:30 [INF] Executing endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:55:37.338 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MicroX.Domain.Entities.Product]]] GetAll() on controller MicroX.API.Controllers.ProductController (MicroX.API).
+2025-08-03 18:55:37.344 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MicroX.Domain.Entities.Product, MicroX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-03 18:55:37.347 +05:30 [INF] Executed action MicroX.API.Controllers.ProductController.GetAll (MicroX.API) in 5.1821ms
+2025-08-03 18:55:37.348 +05:30 [INF] Executed endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:55:37.349 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/Product - 200 null application/json; charset=utf-8 15.2548ms
+2025-08-03 18:55:38.540 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/Product - null null
+2025-08-03 18:55:38.543 +05:30 [INF] Executing endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:55:38.544 +05:30 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MicroX.Domain.Entities.Product]]] GetAll() on controller MicroX.API.Controllers.ProductController (MicroX.API).
+2025-08-03 18:55:38.545 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MicroX.Domain.Entities.Product, MicroX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-03 18:55:38.547 +05:30 [INF] Executed action MicroX.API.Controllers.ProductController.GetAll (MicroX.API) in 1.701ms
+2025-08-03 18:55:38.548 +05:30 [INF] Executed endpoint 'MicroX.API.Controllers.ProductController.GetAll (MicroX.API)'
+2025-08-03 18:55:38.549 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/Product - 200 null application/json; charset=utf-8 8.6883ms
+2025-08-03 18:56:12.826 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/Product/e4a1f965-0a45-4594-9f9d-cb61e9748e89 - null null
+2025-08-03 18:56:12.830 +05:30 [INF] Executing endpoint 'MicroX.API.Controllers.ProductController.GetById (MicroX.API)'
+2025-08-03 18:56:12.837 +05:30 [INF] Route matched with {action = "GetById", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MicroX.Domain.Entities.Product]] GetById(System.Guid) on controller MicroX.API.Controllers.ProductController (MicroX.API).
+2025-08-03 18:56:12.845 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-08-03 18:56:12.862 +05:30 [INF] Executed action MicroX.API.Controllers.ProductController.GetById (MicroX.API) in 22.6954ms
+2025-08-03 18:56:12.863 +05:30 [INF] Executed endpoint 'MicroX.API.Controllers.ProductController.GetById (MicroX.API)'
+2025-08-03 18:56:12.865 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/Product/e4a1f965-0a45-4594-9f9d-cb61e9748e89 - 404 null application/problem+json; charset=utf-8 38.8953ms
+2025-08-03 18:56:36.547 +05:30 [INF] Application is shutting down...

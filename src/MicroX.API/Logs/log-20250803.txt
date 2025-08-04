@@ -1,0 +1,31 @@
+2025-08-03 12:44:43.389 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 12:44:43.464 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 12:44:43.465 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 12:44:43.466 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 12:44:43.467 +05:30 [INF] Hosting environment: Development
+2025-08-03 12:44:43.467 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 15:00:34.006 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/health - null null
+2025-08-03 15:00:34.254 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 15:00:34.268 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 15:00:34.272 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/health - 200 null text/plain 281.9504ms
+2025-08-03 15:01:45.176 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/ - null null
+2025-08-03 15:01:45.181 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/ - 404 0 null 5.3525ms
+2025-08-03 15:01:45.185 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7240/, Response status code: 404
+2025-08-03 15:01:50.462 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/ping - null null
+2025-08-03 15:01:50.468 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/ping - 404 0 null 5.787ms
+2025-08-03 15:01:50.472 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7240/api/ping, Response status code: 404
+2025-08-03 15:01:57.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/health - null null
+2025-08-03 15:01:57.430 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/health - 404 0 null 2.635ms
+2025-08-03 15:01:57.433 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7240/api/health, Response status code: 404
+2025-08-03 15:02:01.132 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - null null
+2025-08-03 15:02:01.365 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.1128ms
+2025-08-03 15:02:07.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/Ping - null null
+2025-08-03 15:02:07.042 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 15:02:07.083 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 15:02:07.093 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 15:02:07.099 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 10.2749ms
+2025-08-03 15:02:07.101 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 15:02:07.103 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/Ping - 200 null text/plain; charset=utf-8 64.4693ms
+2025-08-03 15:04:21.640 +05:30 [INF] Application is shutting down...
+2025-08-03 15:38:51.964 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 15:38:52.155 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.

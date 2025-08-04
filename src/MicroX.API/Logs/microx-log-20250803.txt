@@ -1,0 +1,152 @@
+2025-08-03 12:40:23.717 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-03 12:40:23.837 +05:30 [DBG] Hosting starting
+2025-08-03 12:40:23.878 +05:30 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-03 12:40:23.882 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-03 12:40:23.919 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 12:40:23.955 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 12:40:23.956 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 12:40:23.957 +05:30 [DBG] Loaded hosting startup assembly MicroX.API
+2025-08-03 12:40:23.958 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 12:40:23.959 +05:30 [INF] Hosting environment: Development
+2025-08-03 12:40:23.959 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 12:40:23.960 +05:30 [DBG] Hosting started
+2025-08-03 12:40:30.070 +05:30 [DBG] Connection id "0HNEIBJA8747D" accepted.
+2025-08-03 12:40:30.073 +05:30 [DBG] Connection id "0HNEIBJA8747D" started.
+2025-08-03 12:41:09.083 +05:30 [INF] Application is shutting down...
+2025-08-03 12:41:09.084 +05:30 [DBG] Hosting stopping
+2025-08-03 12:41:09.094 +05:30 [DBG] Connection id "0HNEIBJA8747D" disconnecting.
+2025-08-03 12:41:09.099 +05:30 [DBG] Connection id "0HNEIBJA8747D" stopped.
+2025-08-03 12:41:09.104 +05:30 [DBG] Connection id "0HNEIBJA8747D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 12:41:09.110 +05:30 [DBG] Hosting stopped
+2025-08-03 12:41:29.549 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-08-03 12:41:29.634 +05:30 [DBG] Hosting starting
+2025-08-03 12:41:29.668 +05:30 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-08-03 12:41:29.671 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-08-03 12:41:29.698 +05:30 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-08-03 12:41:29.727 +05:30 [INF] Now listening on: http://localhost:5240
+2025-08-03 12:41:29.729 +05:30 [INF] Now listening on: https://localhost:7240
+2025-08-03 12:41:29.729 +05:30 [DBG] Loaded hosting startup assembly MicroX.API
+2025-08-03 12:41:29.730 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 12:41:29.731 +05:30 [INF] Hosting environment: Development
+2025-08-03 12:41:29.731 +05:30 [INF] Content root path: C:\Gaurav\GitHub\MicroX\src\MicroX.API
+2025-08-03 12:41:29.732 +05:30 [DBG] Hosting started
+2025-08-03 12:42:02.032 +05:30 [DBG] Connection id "0HNEIBK5L7MG4" accepted.
+2025-08-03 12:42:02.035 +05:30 [DBG] Connection id "0HNEIBK5L7MG4" started.
+2025-08-03 12:42:02.105 +05:30 [DBG] Connection 0HNEIBK5L7MG4 established using the following protocol: "Tls13"
+2025-08-03 12:42:02.174 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger - null null
+2025-08-03 12:42:02.198 +05:30 [DBG] No candidates found for the request path '/swagger'
+2025-08-03 12:42:02.201 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.245 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger - 301 0 null 73.241ms
+2025-08-03 12:42:02.252 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/index.html - null null
+2025-08-03 12:42:02.264 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-08-03 12:42:02.265 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.336 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/index.html - 200 null text/html;charset=utf-8 84.3834ms
+2025-08-03 12:42:02.478 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/swagger-ui.css - null null
+2025-08-03 12:42:02.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/index.css - null null
+2025-08-03 12:42:02.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/swagger-ui-bundle.js - null null
+2025-08-03 12:42:02.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/swagger-ui-standalone-preset.js - null null
+2025-08-03 12:42:02.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/index.js - null null
+2025-08-03 12:42:02.481 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-08-03 12:42:02.483 +05:30 [DBG] No candidates found for the request path '/swagger/index.css'
+2025-08-03 12:42:02.486 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-08-03 12:42:02.489 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-08-03 12:42:02.491 +05:30 [DBG] No candidates found for the request path '/swagger/index.js'
+2025-08-03 12:42:02.493 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.494 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.495 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.496 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.497 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/index.js - 200 null application/javascript;charset=utf-8 21.0872ms
+2025-08-03 12:42:02.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/index.css - 200 202 text/css 39.3337ms
+2025-08-03 12:42:02.532 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 51.9998ms
+2025-08-03 12:42:02.532 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/swagger-ui.css - 200 155175 text/css 54.5617ms
+2025-08-03 12:42:02.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 57.597ms
+2025-08-03 12:42:02.808 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - null null
+2025-08-03 12:42:02.811 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-08-03 12:42:02.812 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:02.820 +05:30 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-03 12:42:02.823 +05:30 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-08-03 12:42:02.951 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.7629ms
+2025-08-03 12:42:09.454 +05:30 [DBG] Connection id "0HNEIBK5L7MG5" accepted.
+2025-08-03 12:42:09.456 +05:30 [DBG] Connection id "0HNEIBK5L7MG5" started.
+2025-08-03 12:42:20.272 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/health - null null
+2025-08-03 12:42:20.279 +05:30 [DBG] 1 candidate(s) found for the request path '/health'
+2025-08-03 12:42:20.282 +05:30 [DBG] Request matched endpoint 'Health checks'
+2025-08-03 12:42:20.288 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 12:42:20.293 +05:30 [DBG] Running health checks
+2025-08-03 12:42:20.298 +05:30 [DBG] Health check processing with combined status "Healthy" completed after 3.9975ms
+2025-08-03 12:42:20.301 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 12:42:20.302 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/health - 200 null text/plain 29.8414ms
+2025-08-03 12:42:29.667 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7240/api/serviceinfo - null null
+2025-08-03 12:42:29.670 +05:30 [DBG] No candidates found for the request path '/api/serviceinfo'
+2025-08-03 12:42:29.672 +05:30 [DBG] Request did not match any endpoints
+2025-08-03 12:42:29.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7240/api/serviceinfo - 404 0 null 6.9094ms
+2025-08-03 12:42:29.678 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7240/api/serviceinfo, Response status code: 404
+2025-08-03 12:42:41.040 +05:30 [DBG] Connection id "0HNEIBK5L7MG6" accepted.
+2025-08-03 12:42:41.041 +05:30 [DBG] Connection id "0HNEIBK5L7MG6" started.
+2025-08-03 12:42:41.045 +05:30 [DBG] Connection id "0HNEIBK5L7MG7" accepted.
+2025-08-03 12:42:41.047 +05:30 [DBG] Connection id "0HNEIBK5L7MG7" started.
+2025-08-03 12:42:41.052 +05:30 [DBG] Connection id "0HNEIBK5L7MG7" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-08-03 12:42:41.053 +05:30 [DBG] Connection id "0HNEIBK5L7MG6" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-08-03 12:42:41.082 +05:30 [DBG] Connection id "0HNEIBK5L7MG7" disconnecting.
+2025-08-03 12:42:41.093 +05:30 [DBG] Connection id "0HNEIBK5L7MG7" stopped.
+2025-08-03 12:42:41.083 +05:30 [DBG] Connection id "0HNEIBK5L7MG6" disconnecting.
+2025-08-03 12:42:41.098 +05:30 [DBG] Connection id "0HNEIBK5L7MG6" received FIN.
+2025-08-03 12:42:41.099 +05:30 [DBG] Connection id "0HNEIBK5L7MG8" accepted.
+2025-08-03 12:42:41.100 +05:30 [DBG] Connection id "0HNEIBK5L7MG7" received FIN.
+2025-08-03 12:42:41.101 +05:30 [DBG] Connection id "0HNEIBK5L7MG6" stopped.
+2025-08-03 12:42:41.103 +05:30 [DBG] Connection id "0HNEIBK5L7MG7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 12:42:41.104 +05:30 [DBG] Connection id "0HNEIBK5L7MG9" accepted.
+2025-08-03 12:42:41.104 +05:30 [DBG] Connection id "0HNEIBK5L7MG8" started.
+2025-08-03 12:42:41.107 +05:30 [DBG] Connection id "0HNEIBK5L7MG6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 12:42:41.110 +05:30 [DBG] Connection id "0HNEIBK5L7MG9" started.
+2025-08-03 12:42:41.112 +05:30 [DBG] Connection id "0HNEIBK5L7MG8" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-08-03 12:42:41.114 +05:30 [DBG] Connection id "0HNEIBK5L7MG9" bad request data: "Detected a TLS handshake to an endpoint that does not have TLS enabled."
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Detected a TLS handshake to an endpoint that does not have TLS enabled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpParser`1.ParseRequestLine(TRequestHandler handler, SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TakeStartLine(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ParseRequest(SequenceReader`1& reader)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.TryParseRequest(ReadResult result, Boolean& endConnection)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+2025-08-03 12:42:41.117 +05:30 [DBG] Connection id "0HNEIBK5L7MG8" disconnecting.
+2025-08-03 12:42:41.118 +05:30 [DBG] Connection id "0HNEIBK5L7MG8" received FIN.
+2025-08-03 12:42:41.121 +05:30 [DBG] Connection id "0HNEIBK5L7MG9" disconnecting.
+2025-08-03 12:42:41.122 +05:30 [DBG] Connection id "0HNEIBK5L7MG8" stopped.
+2025-08-03 12:42:41.122 +05:30 [DBG] Connection id "0HNEIBK5L7MG9" received FIN.
+2025-08-03 12:42:41.124 +05:30 [DBG] Connection id "0HNEIBK5L7MG9" stopped.
+2025-08-03 12:42:41.125 +05:30 [DBG] Connection id "0HNEIBK5L7MG8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 12:42:41.127 +05:30 [DBG] Connection id "0HNEIBK5L7MG9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 12:43:51.139 +05:30 [INF] Application is shutting down...
+2025-08-03 12:43:51.140 +05:30 [DBG] Hosting stopping
+2025-08-03 12:43:51.146 +05:30 [DBG] Connection id "0HNEIBK5L7MG5" disconnecting.
+2025-08-03 12:43:51.149 +05:30 [DBG] Connection id "0HNEIBK5L7MG5" stopped.
+2025-08-03 12:43:51.149 +05:30 [DBG] Connection id "0HNEIBK5L7MG4" is closing.
+2025-08-03 12:43:51.150 +05:30 [DBG] Connection id "0HNEIBK5L7MG5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 12:43:51.153 +05:30 [DBG] Connection id "0HNEIBK5L7MG4" is closed. The last processed stream ID was 19.
+2025-08-03 12:43:51.155 +05:30 [DBG] Connection id "0HNEIBK5L7MG4" received FIN.
+2025-08-03 12:43:51.156 +05:30 [DBG] The connection queue processing loop for 0HNEIBK5L7MG4 completed.
+2025-08-03 12:43:51.156 +05:30 [DBG] Connection id "0HNEIBK5L7MG4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-08-03 12:43:51.166 +05:30 [DBG] Connection id "0HNEIBK5L7MG4" stopped.
+2025-08-03 12:43:51.169 +05:30 [DBG] Hosting stopped

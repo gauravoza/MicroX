@@ -1,0 +1,475 @@
+2025-08-03 17:19:07.914 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:19:08.280 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 17:19:08.325 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:19:08.329 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 17:19:16.747 +05:30 [ERR] Health check redis with status "Unhealthy" completed after 8412.73ms with message 'null'
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). Error connecting right now. To allow this multiplexer to continue retrying until it's able to connect, use abortConnect=false in your connection string or AbortOnConnectFail=false; in your code.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImplAsync(ConfigurationOptions configuration, TextWriter writer, Nullable`1 serverType) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 620
+   at HealthChecks.Redis.RedisHealthCheck.TimeoutAsync(Task`1 task, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.Redis/RedisHealthCheck.cs:line 124
+   at HealthChecks.Redis.RedisHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.Redis/RedisHealthCheck.cs:line 54
+2025-08-03 17:19:16.810 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 17:19:16.813 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 503 null application/json 8537.5711ms
+2025-08-03 17:27:18.410 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:27:18.685 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 17:27:18.743 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:27:18.750 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 17:27:18.918 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 17:27:18.922 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 241.0603ms
+2025-08-03 17:32:37.571 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:32:37.571 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:32:37.571 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:32:37.571 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:32:37.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/serviceinfo - null null
+2025-08-03 17:32:37.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 17:32:37.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 17:32:37.887 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 17:32:37.944 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:32:37.944 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:32:37.944 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:32:37.944 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:32:37.950 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:32:37.950 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 17:32:37.950 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:32:37.951 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/serviceinfo - 404 null null 69.1008ms
+2025-08-03 17:32:37.963 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:32:37.963 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 17:32:37.964 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost/serviceinfo, Response status code: 404
+2025-08-03 17:32:37.970 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 17:32:37.970 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:32:37.978 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 10.5014ms
+2025-08-03 17:32:37.978 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:32:37.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 96.645ms
+2025-08-03 17:32:37.992 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 28.4511ms
+2025-08-03 17:32:37.993 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:32:37.993 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 111.1225ms
+2025-08-03 17:32:38.133 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 17:32:38.135 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 253.1589ms
+2025-08-03 17:35:50.190 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:35:50.190 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:35:50.190 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:35:50.190 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:35:50.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 17:35:50.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 17:35:50.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 17:35:50.433 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 17:35:50.492 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:35:50.492 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:35:50.492 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:35:50.492 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:35:50.498 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:35:50.498 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:35:50.498 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:35:50.498 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 17:35:50.509 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:35:50.509 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:35:50.509 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 17:35:50.517 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 17:35:50.517 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:35:50.517 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:35:50.528 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 15.8554ms
+2025-08-03 17:35:50.541 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:35:50.541 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 31.0503ms
+2025-08-03 17:35:50.541 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 31.0496ms
+2025-08-03 17:35:50.541 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:35:50.541 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:35:50.544 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 116.1257ms
+2025-08-03 17:35:50.544 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 116.1201ms
+2025-08-03 17:35:50.544 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 116.1245ms
+2025-08-03 17:35:50.680 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 17:35:50.683 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 255.4233ms
+2025-08-03 17:47:40.602 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:47:40.602 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:47:40.602 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:47:40.602 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:47:40.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 17:47:40.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 17:47:40.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 17:47:40.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 17:47:40.929 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:47:40.929 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:47:40.929 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:47:40.929 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:47:40.935 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:47:40.935 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:47:40.935 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:47:40.935 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 17:47:40.949 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:47:40.949 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:47:40.949 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 17:47:40.956 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:47:40.956 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:47:40.956 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 17:47:40.965 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 12.7958ms
+2025-08-03 17:47:40.977 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 27.1677ms
+2025-08-03 17:47:40.977 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 27.1679ms
+2025-08-03 17:47:40.979 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:47:40.979 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:47:40.979 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:47:40.981 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 114.2142ms
+2025-08-03 17:47:40.981 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 114.2141ms
+2025-08-03 17:47:40.981 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 114.2141ms
+2025-08-03 17:47:41.095 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 17:47:41.097 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 230.2418ms
+2025-08-03 17:48:18.294 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:48:18.294 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:48:18.294 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:48:18.294 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 17:48:18.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 17:48:18.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 17:48:18.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 17:48:18.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 17:48:18.612 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:48:18.612 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:48:18.612 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:48:18.612 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 17:48:18.619 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 17:48:18.619 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:48:18.619 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:48:18.619 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:48:18.629 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 17:48:18.629 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:48:18.629 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 17:48:18.635 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 17:48:18.635 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:48:18.635 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 17:48:18.644 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 12.4995ms
+2025-08-03 17:48:18.656 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 26.8552ms
+2025-08-03 17:48:18.656 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 26.8292ms
+2025-08-03 17:48:18.656 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:48:18.656 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 17:48:18.656 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 17:48:18.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 102.4914ms
+2025-08-03 17:48:18.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 102.4804ms
+2025-08-03 17:48:18.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 102.4915ms
+2025-08-03 17:48:18.769 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 17:48:18.770 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 214.0873ms
+2025-08-03 18:16:07.936 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:16:07.936 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:16:07.936 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:16:07.936 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:16:08.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:16:08.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:16:08.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:16:08.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:16:08.353 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:16:08.353 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:16:08.353 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:16:08.353 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:16:08.358 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:16:08.358 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:16:08.358 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:16:08.358 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:16:08.370 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:16:08.370 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:16:08.370 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:16:08.375 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:16:08.375 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:16:08.375 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:16:08.384 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 10.7595ms
+2025-08-03 18:16:08.393 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:16:08.396 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 25.2376ms
+2025-08-03 18:16:08.396 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 24.9764ms
+2025-08-03 18:16:08.396 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:16:08.396 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 92.3132ms
+2025-08-03 18:16:08.396 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:16:08.396 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 92.7835ms
+2025-08-03 18:16:08.396 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 93.1564ms
+2025-08-03 18:16:08.658 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:16:08.660 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 356.57ms
+2025-08-03 18:18:34.617 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:18:34.617 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:18:34.617 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:18:34.617 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:18:34.841 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:18:34.841 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:18:34.841 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:18:34.841 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:18:34.888 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:18:34.888 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:18:34.888 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:18:34.888 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:18:34.893 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:18:34.893 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:18:34.893 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:18:34.893 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:18:34.903 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:18:34.903 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:18:34.903 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:18:34.909 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:18:34.909 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:18:34.909 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:18:34.918 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 11.3566ms
+2025-08-03 18:18:34.928 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 24.4672ms
+2025-08-03 18:18:34.928 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 24.4292ms
+2025-08-03 18:18:34.930 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:18:34.930 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:18:34.930 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:18:34.933 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 95.9166ms
+2025-08-03 18:18:34.933 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 95.9259ms
+2025-08-03 18:18:34.933 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 95.9258ms
+2025-08-03 18:18:35.011 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:18:35.012 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 175.9583ms
+2025-08-03 18:22:19.882 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:19.882 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:19.882 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:19.882 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:20.104 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:22:20.104 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:22:20.104 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:22:20.104 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:22:20.150 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:20.150 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:20.150 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:20.150 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:20.155 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:22:20.155 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:20.155 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:22:20.155 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:20.166 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:22:20.166 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:22:20.166 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:22:20.172 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:22:20.172 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:22:20.172 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:22:20.183 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 13.1222ms
+2025-08-03 18:22:20.193 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 26.3972ms
+2025-08-03 18:22:20.193 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 26.3474ms
+2025-08-03 18:22:20.195 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:20.195 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:20.195 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:22:20.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 96.5406ms
+2025-08-03 18:22:20.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 96.5309ms
+2025-08-03 18:22:20.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 96.5564ms
+2025-08-03 18:22:20.273 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:22:20.275 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 174.7009ms
+2025-08-03 18:22:39.638 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:39.638 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:39.638 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:39.638 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:22:39.836 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:22:39.836 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:22:39.836 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:22:39.836 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:22:39.873 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:39.873 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:39.873 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:39.873 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:22:39.878 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:22:39.878 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:39.878 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:39.878 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:22:39.887 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:22:39.887 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:22:39.887 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:22:39.892 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:22:39.892 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:22:39.892 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:22:39.900 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 10.2779ms
+2025-08-03 18:22:39.908 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:22:39.908 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 21.1357ms
+2025-08-03 18:22:39.908 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 21.1794ms
+2025-08-03 18:22:39.908 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:39.908 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:22:39.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 78.1412ms
+2025-08-03 18:22:39.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 78.1408ms
+2025-08-03 18:22:39.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 78.1223ms
+2025-08-03 18:22:39.984 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:22:39.985 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 153.0226ms
+2025-08-03 18:25:37.998 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:25:37.998 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:25:37.998 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:25:37.998 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:25:38.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:25:38.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:25:38.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:25:38.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:25:38.375 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:25:38.375 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:25:38.375 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:25:38.375 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:25:38.380 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:25:38.380 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:25:38.380 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:25:38.380 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:25:38.391 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:25:38.391 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:25:38.391 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:25:38.399 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:25:38.399 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:25:38.399 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:25:38.408 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 13.9093ms
+2025-08-03 18:25:38.417 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:25:38.419 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 26.9143ms
+2025-08-03 18:25:38.419 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 26.9309ms
+2025-08-03 18:25:38.419 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:25:38.419 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:25:38.420 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 97.8714ms
+2025-08-03 18:25:38.420 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 97.8657ms
+2025-08-03 18:25:38.420 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 97.8725ms
+2025-08-03 18:25:38.604 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:25:38.605 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 282.7045ms
+2025-08-03 18:26:10.760 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:26:10.760 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:26:10.760 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:26:10.760 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:26:10.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:26:10.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:26:10.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:26:10.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:26:10.995 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:26:10.995 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:26:10.995 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:26:10.995 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:26:11.000 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:26:11.000 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:26:11.000 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:26:11.000 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:26:11.009 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:26:11.009 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:26:11.009 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:26:11.014 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:26:11.014 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:26:11.014 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:26:11.021 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 10.0069ms
+2025-08-03 18:26:11.031 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:26:11.031 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 22.1739ms
+2025-08-03 18:26:11.031 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 22.1739ms
+2025-08-03 18:26:11.032 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:26:11.032 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:26:11.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 82.2597ms
+2025-08-03 18:26:11.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 82.2335ms
+2025-08-03 18:26:11.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 82.26ms
+2025-08-03 18:26:11.104 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:26:11.105 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 154.8014ms
+2025-08-03 18:45:31.750 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:45:31.750 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:45:31.750 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:45:31.750 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:45:32.022 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:45:32.022 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:45:32.022 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:45:32.022 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:45:32.070 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:45:32.070 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:45:32.070 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:45:32.070 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:45:32.075 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:45:32.075 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:45:32.075 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:45:32.075 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:45:32.085 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:45:32.085 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:45:32.085 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:45:32.090 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:45:32.090 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:45:32.090 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:45:32.098 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 9.9857ms
+2025-08-03 18:45:32.108 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:45:32.110 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 93.3538ms
+2025-08-03 18:45:32.132 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 46.0428ms
+2025-08-03 18:45:32.132 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 46.0238ms
+2025-08-03 18:45:32.132 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:45:32.132 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:45:32.132 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 115.2609ms
+2025-08-03 18:45:32.132 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 115.2605ms
+2025-08-03 18:45:32.215 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:45:32.217 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 200.2591ms
+2025-08-03 18:56:43.825 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:56:43.825 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:56:43.825 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:56:43.825 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 18:56:44.050 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 18:56:44.050 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 18:56:44.050 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 18:56:44.050 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 18:56:44.098 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:56:44.098 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:56:44.098 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:56:44.098 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 18:56:44.104 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 18:56:44.104 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:56:44.104 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:56:44.104 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:56:44.112 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 18:56:44.112 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:56:44.112 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 18:56:44.117 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:56:44.117 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 18:56:44.117 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 18:56:44.124 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 10.3039ms
+2025-08-03 18:56:44.134 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 18:56:44.136 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 89.9491ms
+2025-08-03 18:56:44.162 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 49.6472ms
+2025-08-03 18:56:44.162 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 49.6686ms
+2025-08-03 18:56:44.162 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:56:44.162 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 18:56:44.162 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 116.5867ms
+2025-08-03 18:56:44.162 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 116.588ms
+2025-08-03 18:56:44.221 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 18:56:44.222 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 176.702ms
+2025-08-03 19:05:07.915 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:05:07.915 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:05:07.915 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:05:07.915 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:05:08.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 19:05:08.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 19:05:08.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 19:05:08.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 19:05:08.197 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:05:08.197 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:05:08.197 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:05:08.197 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:05:08.202 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 19:05:08.202 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:05:08.202 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:05:08.202 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 19:05:08.210 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 19:05:08.210 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 19:05:08.210 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 19:05:08.216 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 19:05:08.216 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 19:05:08.216 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 19:05:08.223 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 10.0749ms
+2025-08-03 19:05:08.233 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 19:05:08.235 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 93.4172ms
+2025-08-03 19:05:08.268 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 57.5952ms
+2025-08-03 19:05:08.268 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 57.595ms
+2025-08-03 19:05:08.269 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:05:08.269 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:05:08.269 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 127.5175ms
+2025-08-03 19:05:08.269 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 127.5186ms
+2025-08-03 19:05:08.336 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 19:05:08.338 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 196.4081ms
+2025-08-03 19:08:37.123 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:08:37.123 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:08:37.123 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:08:37.123 +05:30 [INF] Current Redis Config: localhost:6379
+2025-08-03 19:08:37.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - null null
+2025-08-03 19:08:37.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Info - null null
+2025-08-03 19:08:37.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ping - null null
+2025-08-03 19:08:37.315 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/health - null null
+2025-08-03 19:08:37.365 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:08:37.365 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:08:37.365 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:08:37.365 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-08-03 19:08:37.372 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:08:37.372 +05:30 [INF] Executing endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 19:08:37.372 +05:30 [INF] Executing endpoint 'Health checks'
+2025-08-03 19:08:37.372 +05:30 [INF] Executing endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:08:37.382 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 19:08:37.382 +05:30 [INF] Route matched with {action = "Get", controller = "Ping"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller PingController (MicroX.API).
+2025-08-03 19:08:37.382 +05:30 [INF] Route matched with {action = "Get", controller = "Info"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller InfoController (MicroX.API).
+2025-08-03 19:08:37.387 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 19:08:37.387 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-08-03 19:08:37.387 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-03 19:08:37.396 +05:30 [INF] Executed action PingController.Get (MicroX.API) in 11.7445ms
+2025-08-03 19:08:37.405 +05:30 [INF] Executed endpoint 'PingController.Get (MicroX.API)'
+2025-08-03 19:08:37.408 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ping - 200 null text/plain; charset=utf-8 96.8761ms
+2025-08-03 19:08:37.436 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 53.8147ms
+2025-08-03 19:08:37.436 +05:30 [INF] Executed action InfoController.Get (MicroX.API) in 53.8442ms
+2025-08-03 19:08:37.436 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:08:37.436 +05:30 [INF] Executed endpoint 'InfoController.Get (MicroX.API)'
+2025-08-03 19:08:37.437 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Info - 200 null application/json; charset=utf-8 126.0898ms
+2025-08-03 19:08:37.437 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - 200 null application/json; charset=utf-8 126.0906ms
+2025-08-03 19:08:37.525 +05:30 [INF] Executed endpoint 'Health checks'
+2025-08-03 19:08:37.527 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/health - 200 null application/json 216.0637ms

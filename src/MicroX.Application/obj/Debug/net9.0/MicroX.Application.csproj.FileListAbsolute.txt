@@ -1,0 +1,17 @@
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\bin\Debug\net9.0\MicroX.Application.deps.json
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\bin\Debug\net9.0\MicroX.Application.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\bin\Debug\net9.0\MicroX.Application.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\bin\Debug\net9.0\MicroX.Contracts.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\bin\Debug\net9.0\MicroX.Domain.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\bin\Debug\net9.0\MicroX.Domain.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\bin\Debug\net9.0\MicroX.Contracts.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.Application.csproj.AssemblyReference.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.Application.AssemblyInfoInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.Application.AssemblyInfo.cs
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.Application.csproj.CoreCompileInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.A.74ED0E1C.Up2Date
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.Application.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\refint\MicroX.Application.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\MicroX.Application.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Application\obj\Debug\net9.0\ref\MicroX.Application.dll

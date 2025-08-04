@@ -1,0 +1,11 @@
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\bin\Debug\net9.0\MicroX.Contracts.deps.json
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\bin\Debug\net9.0\MicroX.Contracts.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\bin\Debug\net9.0\MicroX.Contracts.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\MicroX.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\MicroX.Contracts.AssemblyInfoInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\MicroX.Contracts.AssemblyInfo.cs
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\MicroX.Contracts.csproj.CoreCompileInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\MicroX.Contracts.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\refint\MicroX.Contracts.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\MicroX.Contracts.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Contracts\obj\Debug\net9.0\ref\MicroX.Contracts.dll

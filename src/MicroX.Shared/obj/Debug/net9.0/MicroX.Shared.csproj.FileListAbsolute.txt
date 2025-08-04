@@ -1,0 +1,11 @@
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\bin\Debug\net9.0\MicroX.Shared.deps.json
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\bin\Debug\net9.0\MicroX.Shared.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\bin\Debug\net9.0\MicroX.Shared.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\MicroX.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\MicroX.Shared.AssemblyInfoInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\MicroX.Shared.AssemblyInfo.cs
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\MicroX.Shared.csproj.CoreCompileInputs.cache
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\MicroX.Shared.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\refint\MicroX.Shared.dll
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\MicroX.Shared.pdb
+C:\Gaurav\GitHub\MicroX\src\MicroX.Shared\obj\Debug\net9.0\ref\MicroX.Shared.dll

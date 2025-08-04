@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MicroX.Shared/1.0.0": {
+        "runtime": {
+          "MicroX.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MicroX.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

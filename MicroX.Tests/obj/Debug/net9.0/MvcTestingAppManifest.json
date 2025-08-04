@@ -1,0 +1,8 @@
+{
+  "MicroX.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.API",
+  "MicroX.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Application",
+  "MicroX.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Contracts",
+  "MicroX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Domain",
+  "MicroX.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Infrastructure",
+  "MicroX.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gaurav\\GitHub\\MicroX\\src\\MicroX.Shared"
+}
